@@ -21,7 +21,7 @@ public class Poupanca extends Conta {
 
 
 	public void renderJuros() {
-		
+		setSaldo((juros*(getSaldo())/100)+getSaldo());
 	}
 
 }
